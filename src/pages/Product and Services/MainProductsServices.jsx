@@ -12,6 +12,7 @@ import CommercialGeneratorsAndGeothermalSolutions from "./CommercialGenerators&G
 const MainProductsServices = () => {
   return (
     <div className="font-sans text-gray-800">
+        <SalesSection />
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <img
@@ -43,7 +44,6 @@ const MainProductsServices = () => {
           </div>
         </div>
       </section>
-      <SalesSection />
       <SolarPanels />
       <SalesSectionTwo />
       <FinancialToolsSection />

@@ -26,8 +26,8 @@ const SalesSection = () => {
             </div>
           </div>
 
-          <div className="flex flex-col space-y-6">
-            <div className="grid grid-cols-2 gap-4">
+          <div className="flex flex-col space-y-6 mt-6">
+            <div className="grid grid-cols-2 gap-4 mt-6">
               <div className="aspect-[1.4/1]">
                 <img
                   src={img2}
@@ -63,8 +63,7 @@ const SalesSection = () => {
                 shipping costs are the lowest in the industry.
               </p>
               <p className="text-[#1e293b] text-[24px] font-semibold leading-tight pt-2 text-center">
-                Reduce your hardware costs <br /> by up to 40% off on your
-                hardware!
+                Reduce your hardware costs <br /> by up to 40%!
               </p>
               <div className="flex justify-center">
                 <Link
